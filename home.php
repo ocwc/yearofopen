@@ -61,7 +61,7 @@
         <div class="row align-center">
             <div class="column medium-7">
                 <div class="video-wrapper">
-                    <iframe src="https://www.youtube.com/embed/yA49ybJDkgU" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/dXXaHBV5Hhg" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

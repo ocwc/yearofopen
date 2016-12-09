@@ -7,7 +7,7 @@
             </div>
 
             <div class="small-2 medium-1 medium-offset-3 columns footer-license">
-                <a href="#"><img src="/images/cc-by.svg" class="footer-cc-by" /></a>
+                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/cc-by.svg" class="footer-cc-by" /></a>
             </div>
 
             <div class="small-10 medium-5 columns footer-license">

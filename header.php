@@ -49,7 +49,7 @@
     <div>
         <div class="row header show-for-medium">
           <div class="medium-2 columns logo-container">
-            <a href="/" class="logo-anchor"><img class="logo" src="/images/logo.svg" alt="Year Of Open Logo" /></a>
+            <a href="/" class="logo-anchor"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="Year Of Open Logo" /></a>
           </div>
 
           <div class="medium-10 columns">
