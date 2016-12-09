@@ -1,0 +1,337 @@
+/* Variables */
+
+$gold: #705B3C;
+$brown: #f1e4d2;
+$green: #86B94B;
+$violet: #85509D;
+$greenLight: #1CA985;
+$blueDark: #3B52AC;
+
+$arial: Arial,Helvetica Neue,Helvetica,sans-serif;
+
+
+/* Colors */
+.color-gold  { color: $gold; }
+.color-white { color: $white; }
+
+.background-gradient-yellow {
+    background-image: radial-gradient(55% 86%, #FFFFFF 33%, #FFE081 99%);
+}
+
+.background-gradient-green {
+    background-image: linear-gradient(-180deg, #92DA80 0%, #59B449 100%);
+}
+
+.background-gradient-violet {
+    background-image: linear-gradient(-180deg, #BB88CC 0%, #85509D 100%);
+}
+
+.background-gradient-greenLight {
+    background-color: $greenLight;
+}
+
+.background-gradient-blueDark {
+    background-color: $blueDark;
+}
+
+.background-gradient-blue {
+    background-image: linear-gradient(0deg, #3B52AC 9%, #5EC7AD 100%);
+}
+
+/* Buttons */
+.button.green {
+    @include button-style($green, $secondary-color, $white);
+    padding-left: rem-calc(48);
+    padding-right: rem-calc(48);
+    border-radius: rem-calc(6);
+}
+
+.button.violet {
+    @include button-style($violet, lighten($violet, 20%), $white);
+    padding-left: rem-calc(48);
+    padding-right: rem-calc(48);
+    border-radius: rem-calc(6);
+}
+
+/* Video */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+.header {
+    margin-top: rem-calc(18);
+    margin-bottom: rem-calc(75);
+}
+
+.dropdown.menu {
+    margin-top: rem-calc(33);
+    margin-left: rem-calc(30);
+
+    font-size: rem-calc(17);
+    font-weight: bold;
+}
+
+.dropdown.menu > li:hover > a,
+.dropdown.menu > li:active > a {
+    color: $secondary-color;
+}
+
+.dropdown.menu li.has-submenu:hover,
+.dropdown.menu li.has-submenu:active {
+    background-color: $primary-color;
+
+
+    & > a {
+        color: $white;
+    }
+}
+
+.dropdown.menu>li.is-dropdown-submenu-parent:hover>a::after {
+    border-color: $white transparent transparent;
+}
+
+.is-dropdown-submenu {
+    background-color: $primary-color;
+    border: none;
+
+}
+
+.is-dropdown-submenu li {
+    min-width: rem-calc(250);
+}
+
+.is-dropdown-submenu-item a {
+    color: $white;
+}
+
+.is-dropdown-submenu-item:hover a,
+.is-dropdown-submenu-item:active a {
+    background-color: $secondary-color;
+    color: $white;
+}
+
+.logo {
+    margin-left: rem-calc(5);
+    max-width: rem-calc(171);
+}
+
+.logo-container {
+    position: relative;
+    overflow: visible;
+}
+
+.logo-anchor {
+    overflow: visible;
+}
+
+.logo-anchor::after {
+    position: absolute;
+    top: rem-calc(31);
+    right: rem-calc(-25);
+
+    content:"";
+    width: rem-calc(1);
+    height: rem-calc(49);
+    border-right: rem-calc(1) solid #705B3C;
+}
+
+/* Footer */
+.footer-wrapper {
+    padding-top: rem-calc(25);
+    padding-bottom: rem-calc(30);
+
+    background-color: $brown;
+    font-family: $arial;
+}
+
+.footer-header {
+    font-size: rem-calc(12);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer-license {
+    font-size: rem-calc(12);
+}
+
+.footer-header {
+    margin-bottom: rem-calc(10);
+}
+
+/* Home */
+.home-topic {
+    margin-bottom: rem-calc(75);
+}
+
+.home h1 {
+    margin-bottom: rem-calc(39);
+
+    font-size: rem-calc(30);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.home h2 {
+    font-size: rem-calc(23);
+    text-align: center;
+}
+
+.home-topic-text {
+    margin-bottom: rem-calc(32);
+
+    font-size: rem-calc(18);
+    font-family: $arial;
+}
+
+.box-colored {
+    padding-top: rem-calc(50);
+    padding-bottom: rem-calc(40);
+    color: $white;
+}
+
+.box-colored h2 {
+    font-size: rem-calc(24);
+    font-weight: 600;
+}
+
+.box-colored p {
+    padding: rem-calc(20) rem-calc(30);
+    text-align: center;
+}
+
+.home-video-content {
+    padding-top: rem-calc(36);
+    padding-bottom: rem-calc(50);
+}
+
+.home-cards {
+    padding: rem-calc(95) 0;
+}
+
+.home-card {
+    display: table;
+    border-radius: rem-calc(5);
+    min-height: rem-calc(248);
+}
+
+.home-card a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    color: $white;
+    font-size: rem-calc(24);
+    font-weight: 600;
+
+    &:hover,
+    &:active {
+        color: lighten($primary-color, 40%);
+    }
+    text-shadow: 0px 1px $black;
+}
+
+.home-card-education {
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(204, 166, 120, 0.62),
+      rgba(204, 166, 120, 0.62)
+    ),
+    /* bottom, image */
+    url('../images/yoo-4.jpg');
+    background-size: cover;
+}
+
+.home-card-access {
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(41, 154, 165, 0.62),
+      rgba(41, 154, 165, 0.62)
+    ),
+    /* bottom, image */
+    url('../images/yoo-2.jpg');
+    background-size: cover;
+}
+
+.home-card-software {
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(82, 111, 136, 0.62),
+      rgba(82, 111, 136, 0.62)
+    ),
+    /* bottom, image */
+    url('../images/yoo-1.jpg');
+  background-size: cover;
+}
+
+.home-card-licensing {
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(82, 111, 136, 0.62),
+      rgba(82, 111, 136, 0.62)
+    ),
+    /* bottom, image */
+    url('../images/yoo-3.jpg');
+    background-size: cover;
+    background-position: right top;
+}
+
+.home-social {
+    padding-top: rem-calc(50);
+    padding-bottom: rem-calc(80);
+}
+
+.home-social h2 {
+    display: block;
+    font-size: rem-calc(24);
+    font-weight: 600;
+    text-align: center;
+
+}
+
+/* Text */
+h1 {
+    color: $gold;
+    font-size: rem-calc(28);
+    font-weight: 600;
+}
+
+/* Post Content */
+.post-content {
+    margin-top: rem-calc(30);
+    margin-bottom: rem-calc(60);
+    padding: 40px 40px 24px 40px;
+    background-color: $white;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.23);
+    border-radius: 8px;
+
+    font-family: $arial;
+
+}
+
+.post-content h1 {
+    font-size: rem-calc(20);
+    color: inherit;
+}
+
+.post-content h2 {
+    font-size: rem-calc(20);
+    color: inherit;
+    weight: normal;
+}
