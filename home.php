@@ -1,4 +1,4 @@
-<?php include('inc/header.php'); ?>
+<?php get_header(); ?>
 
 <div class="home">
     <div class="row align-center home-topic color-gold">
@@ -94,4 +94,4 @@
     </div>
 </div>
 
-<?php include('inc/footer.php'); ?>
+<?php get_footer(); ?>

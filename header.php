@@ -11,6 +11,7 @@
 <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#ffffff ">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
 
 <?php wp_head(); ?>
 </head>

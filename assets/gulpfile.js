@@ -1,8 +1,8 @@
 var gulp = require('gulp');
 var $    = require('gulp-load-plugins')();
-var browserSync = require('browser-sync');
-var reload      = browserSync.reload;
-var babel = require('gulp-babel');
+var sourcemaps = require('gulp-sourcemaps');
+var minify = require('gulp-minify');
+var concat = require('gulp-concat');
 
 var sassPaths = [
   'bower_components/foundation-sites/scss',
@@ -17,30 +17,43 @@ gulp.task('sass', function() {
     })
       .on('error', $.sass.logError))
     .pipe($.autoprefixer({
-      browsers: ['last 3 versions', 'ie >= 9']
+      browsers: ['last 2 versions', 'ie >= 9']
     }))
-    .pipe(gulp.dest('css'));
+    .pipe(gulp.dest('../css'));
 });
 
-gulp.task('babel', function() {
-  gulp.src('js/app.es6')
-      .pipe(babel({
-          presets: ['es2015']
-      }))
-      .pipe(gulp.dest('js'))
+gulp.task('sass-devel', function() {
+  return gulp.src('scss/app.scss')
+    .pipe(sourcemaps.init())
+    .pipe($.sass({
+      includePaths: sassPaths,
+      outputStyle: 'compressed' // if css compressed **file size**
+    })
+      .on('error', $.sass.logError))
+    .pipe($.autoprefixer({
+      browsers: ['last 2 versions', 'ie >= 9']
+    }))
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest('../css'));
 });
 
-gulp.task('serve', ['sass', 'babel'], function() {
-  browserSync.init({
-    notify: false,
-    proxy: "localhost:8100"
-  });
+gulp.task('compress', function() {
+  var files = [
+    'bower_components/what-input/what-input.js',
+    'bower_components/foundation-sites/dist/foundation.js',
+    'js/app.js'
+  ];
+
+  return gulp.src(files)
+    .pipe(concat('app.js'))
+    .pipe(gulp.dest('../js'))
+    .pipe(minify())
+    .pipe(gulp.dest('../js'));
+});
+
+
+gulp.task('default', ['sass-devel', 'compress'], function() {
   gulp.watch(['scss/**/*.scss'], ['sass']);
-  gulp.watch(['js/app.es6'], ['babel']);
-  gulp.watch("**/*.php").on('change', browserSync.reload);
-  gulp.watch(["css/app.css", 'js/app.es6']).on('change', browserSync.reload);
 });
 
-gulp.task('default', ['sass', 'babel'], function() {
-
-});
+gulp.task('build', ['sass', 'compress']);
