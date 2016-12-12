@@ -86,9 +86,16 @@
 
     <div class="background-gradient-blue color-white home-social">
         <div class="row align-center">
-            <div class="medium-10 text-center">
+            <div class="medium-10 column text-center">
                 <h2>Open Education</h2>
                 <p>Use #yearofopen and join the discussion</p>
+            </div>
+            <div class="medium-10 column">
+                <?php foreach (get_tweets() as $tweet) : ?>
+                    <div class="small-6 medium-3 columns">
+                        <?php echo do_shortcode("[tweet id='$tweet']"); ?>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
