@@ -19,17 +19,12 @@
             <div class="row align-right">
                 <div class="column medium-8 box-colored">
                     <h2>What is Year of Open</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    <p>The Year of Open is a global focus on open processes, systems, and tools, created through collaborative approaches, that enhance our education, businesses, governments, and organizations. At its core, open is a mindset about the way we should meet collective needs and address challenges. It means taking a participative and engaging approach, whether to education, government, business or other areas of daily life. In its practical applications, open is about shared efforts and values to enhance people’s opportunities, understanding and experiences.
                     </p>
 
                     <div class="row align-spaced text-center">
                         <div class="column">
-                            <a href="#" class="button violet">Learn More</a>
-                        </div>
-                        <div class="column">
-                            <a href="#" class="button violet">Watch This!</a>
+                            <a href="/what-is-the-year-of-open/" class="button violet">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -70,16 +65,16 @@
     <div class="background-gradient-blueDark home-cards">
         <div class="row align-spaced">
             <div class="column medium-2 home-card home-card-education">
-                <a href="#">Open Education</a>
+                <a href="/what-are-open-educational-resources/">Open Education</a>
             </div>
             <div class="column medium-2 home-card home-card-access">
-                <a href="#">Open Access</a>
+                <a href="/what-is-open-access/">Open Access</a>
             </div>
             <div class="column medium-2 home-card home-card-software">
                 <a href="#">Open Source Software</a>
             </div>
             <div class="column medium-2 home-card home-card-licensing">
-                <a href="#">Open Licensing</a>
+                <a href="/what-are-open-licenses/">Open Licenses</a>
             </div>
         </div>
     </div>
