@@ -146,6 +146,10 @@ $arial: Arial,Helvetica Neue,Helvetica,sans-serif;
 //     border-right: rem-calc(1) solid #705B3C;
 // }
 
+.title-bar {
+    background-color: transparent;
+}
+
 /* Footer */
 .footer-wrapper {
     padding-top: rem-calc(25);

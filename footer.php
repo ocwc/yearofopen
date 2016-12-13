@@ -2,19 +2,19 @@
 
       <div class="footer-wrapper">
         <div class="row footer">
-            <div class="medium-12 columns">
+            <div class="small-12 medium-12 columns">
                 <div class="footer-header">Check out our other events</div>
             </div>
 
-            <div class="medium-2 medium-offset-3 text-center">
+            <div class="medium-2 small-12 medium-offset-3 text-center">
                 <a href="https://www.openeducationweek.org/"><img class="logo-oew" src="<?php echo get_template_directory_uri(); ?>/images/oew-logo.png" /></a>
             </div>
 
-            <div class="small-2 text-center">
+            <div class="medium-2 small-12 text-center">
                 <a href="http://www.oeconsortium.org/"><img src="<?php echo get_template_directory_uri(); ?>/images/oec-logo.svg" /></a>
             </div>
 
-            <div class="small-2 text-center">
+            <div class="medium-2 small-12 text-center">
                 <a href="http://conference.oeconsortium.org/"><img class="logo-global" src="<?php echo get_template_directory_uri(); ?>/images/oeglobal-logo.png" /></a>
             </div>
 

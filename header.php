@@ -25,7 +25,8 @@
     <div class="title-bar" data-responsive-toggle="widemenu" data-hide-for="medium">
       <div class="title-bar-left">
         <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
-        <span class="title-bar-title">Year Of Open</span>
+
+        <a href="/" class="logo-anchor"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="Year Of Open Logo" /></a>
       </div>
     </div>
 

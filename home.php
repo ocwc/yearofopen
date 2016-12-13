@@ -20,7 +20,7 @@
     </div>
 
     <div class="expanded row">
-        <div class="small-6 column background-gradient-green">
+        <div class="small-12 medium-6 column background-gradient-green">
             <div class="row align-right">
                 <div class="column medium-8 box-colored">
                     <h2>What is Year of Open</h2>
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class="small-6 column background-gradient-violet">
+        <div class="small-12 medium-6 column background-gradient-violet">
             <div class="row align-left">
                 <div class="column medium-8 box-colored">
                     <h2>Get Involved</h2>
@@ -64,16 +64,16 @@
 
     <div class="background-gradient-blueDark home-cards">
         <div class="row align-spaced">
-            <div class="column medium-2 home-card home-card-education">
+            <div class="column small-6 medium-2 home-card home-card-education">
                 <a href="/what-are-open-educational-resources/">Open Education</a>
             </div>
-            <div class="column medium-2 home-card home-card-access">
+            <div class="column small-6 medium-2 home-card home-card-access">
                 <a href="/what-is-open-access/">Open Access</a>
             </div>
-            <div class="column medium-2 home-card home-card-software">
+            <div class="column small-6 medium-2 home-card home-card-software">
                 <a href="/what-is-open-source-software/">Open Source Software</a>
             </div>
-            <div class="column medium-2 home-card home-card-licensing">
+            <div class="column small-6 medium-2 home-card home-card-licensing">
                 <a href="/what-are-open-licenses/">Open Licenses</a>
             </div>
         </div>
@@ -81,11 +81,11 @@
 
     <div class="background-gradient-blue color-white home-social">
         <div class="row align-center">
-            <div class="medium-10 column text-center">
+            <div class="small-12 medium-10 column text-center">
                 <h2>Open Education</h2>
                 <p>Use #yearofopen and join the discussion</p>
             </div>
-            <div class="medium-10 column">
+            <div class="small-12 medium-10 column">
                 <?php foreach (get_tweets() as $tweet) : ?>
                     <div class="small-6 medium-3 columns">
                         <?php echo do_shortcode("[tweet id='$tweet']"); ?>
