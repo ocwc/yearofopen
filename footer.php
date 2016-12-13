@@ -7,7 +7,7 @@
             </div>
 
             <div class="medium-2 medium-offset-3 text-center">
-                <a href="https://www.openeducationweek.org/"><img src="<?php echo get_template_directory_uri(); ?>/images/oew-logo.svg" /></a>
+                <a href="https://www.openeducationweek.org/"><img class="logo-oew" src="<?php echo get_template_directory_uri(); ?>/images/oew-logo.png" /></a>
             </div>
 
             <div class="small-2 text-center">
@@ -15,7 +15,7 @@
             </div>
 
             <div class="small-2 text-center">
-                <a href="http://conference.oeconsortium.org/"><img src="<?php echo get_template_directory_uri(); ?>/images/oeglobal-logo.svg" /></a>
+                <a href="http://conference.oeconsortium.org/"><img class="logo-global" src="<?php echo get_template_directory_uri(); ?>/images/oeglobal-logo.png" /></a>
             </div>
 
             <div class="small-12"><br /></div>
