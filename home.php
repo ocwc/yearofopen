@@ -7,11 +7,16 @@
                 <h2>What is Open Education</h2>
             </div>
             <div class="column medium-10 text-center home-topic-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p> Open education is a modern approach to a changing world, allowing everyone access to education and knowledge, giving teachers tools to make education effective and engaging for all students, providing students with more options, and ensuring that education is relevant and up to date.</p>
+
+                <!-- <p>We’ve interviewed people from around the world about open education, read more about their perspectives here.</p> -->
             </div>
+
+            <!--
             <div class="small-12 text-center">
                 <a href="#" class="button green">More Info</a>
             </div>
+            -->
     </div>
 
     <div class="expanded row">
@@ -34,17 +39,12 @@
             <div class="row align-left">
                 <div class="column medium-8 box-colored">
                     <h2>Get Involved</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    <p>We want to hear from you during the Year of Open.  What information, tools, project and resources have you created? Is there something you’ve accomplished that you’d like to share?  With your contribution and involvement, we can elevate the Year of Open.
                     </p>
 
                     <div class="row align-spaced text-center">
                         <div class="column">
-                            <a href="#" class="button green">Learn More</a>
-                        </div>
-                        <div class="column">
-                            <a href="#" class="button green">Download Logo</a>
+                            <a href="/get-involved/" class="button green">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                 <a href="/what-is-open-access/">Open Access</a>
             </div>
             <div class="column medium-2 home-card home-card-software">
-                <a href="#">Open Source Software</a>
+                <a href="/what-is-open-source-software/">Open Source Software</a>
             </div>
             <div class="column medium-2 home-card home-card-licensing">
                 <a href="/what-are-open-licenses/">Open Licenses</a>

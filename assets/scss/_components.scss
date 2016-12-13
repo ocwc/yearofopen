@@ -135,16 +135,16 @@ $arial: Arial,Helvetica Neue,Helvetica,sans-serif;
     overflow: visible;
 }
 
-.logo-anchor::after {
-    position: absolute;
-    top: rem-calc(31);
-    right: rem-calc(-25);
+// .logo-anchor::after {
+//     position: absolute;
+//     top: rem-calc(31);
+//     right: rem-calc(-25);
 
-    content:"";
-    width: rem-calc(1);
-    height: rem-calc(49);
-    border-right: rem-calc(1) solid #705B3C;
-}
+//     content:"";
+//     width: rem-calc(1);
+//     height: rem-calc(49);
+//     border-right: rem-calc(1) solid #705B3C;
+// }
 
 /* Footer */
 .footer-wrapper {
