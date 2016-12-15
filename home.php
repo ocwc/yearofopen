@@ -65,7 +65,10 @@
     <div class="background-gradient-blueDark home-cards">
         <div class="row align-spaced">
             <div class="column small-6 medium-2 home-card home-card-education">
-                <a href="/what-are-open-educational-resources/">Open Education</a>
+                <a href="/open-education/">Open Education</a>
+            </div>
+            <div class="column small-6 medium-2 home-card home-card-oer">
+                <a href="/what-are-open-educational-resources/">Open Educational Resources</a>
             </div>
             <div class="column small-6 medium-2 home-card home-card-access">
                 <a href="/what-is-open-access/">Open Access</a>
