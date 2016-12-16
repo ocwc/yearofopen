@@ -257,65 +257,30 @@ $arial: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .home-card-education {
-  background:
-    /* top, transparent red, faked with gradient */
-    linear-gradient(
-      rgba(204, 166, 120, 0.62),
-      rgba(204, 166, 120, 0.62)
-    ),
-    /* bottom, image */
-    url('../images/yoo-4.jpg');
+    background-image: url('../images/yoo-4.jpg');
     background-size: cover;
 }
 
 .home-card-oer {
-    background:
-    /* top, transparent red, faked with gradient */
-    linear-gradient(
-      rgba(204, 166, 120, 0.62),
-      rgba(204, 166, 120, 0.62)
-    ),
-    /* bottom, image */
-    url('../images/yoo-5.jpg');
+    background-image: url('../images/yoo-5.jpg');
     background-size: cover;
     background-position: right top;
 }
 
 .home-card-access {
-  background:
-    /* top, transparent red, faked with gradient */
-    linear-gradient(
-      rgba(41, 154, 165, 0.62),
-      rgba(41, 154, 165, 0.62)
-    ),
-    /* bottom, image */
-    url('../images/yoo-2.jpg');
+    background-image: url('../images/yoo-2.jpg');
     background-size: cover;
 }
 
 .home-card-software {
-  background:
-    /* top, transparent red, faked with gradient */
-    linear-gradient(
-      rgba(82, 111, 136, 0.62),
-      rgba(82, 111, 136, 0.62)
-    ),
-    /* bottom, image */
-    url('../images/yoo-1.jpg');
-  background-size: cover;
+    background-image: url('../images/yoo-1.jpg');
+    background-size: cover;
 }
 
 .home-card-licensing {
-  background:
-    /* top, transparent red, faked with gradient */
-    linear-gradient(
-      rgba(82, 111, 136, 0.62),
-      rgba(82, 111, 136, 0.62)
-    ),
-    /* bottom, image */
-    url('../images/yoo-3.jpg');
+    background-image: url('../images/yoo-3.jpg');
     background-size: cover;
-    background-position: right top;
+    background-position: center bottom;
 }
 
 .home-social {
