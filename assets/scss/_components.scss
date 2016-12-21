@@ -302,7 +302,10 @@ h1 {
     font-size: rem-calc(28);
     font-weight: 600;
 }
-
+.wp-caption-text {
+    font-size: .8em;
+    font-style: italic
+}
 /* Post Content */
 .post-content {
     margin-top: rem-calc(30);
