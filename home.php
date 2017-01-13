@@ -100,13 +100,13 @@
                 <h2>Open Education</h2>
                 <p>Use #yearofopen and join the discussion</p>
             </div>
-            <div class="small-12 medium-10 column">
+            <!-- <div class="small-12 medium-10 column"> -->
                 <?php foreach (get_tweets() as $tweet) : ?>
-                    <div class="small-6 medium-3 columns">
+                    <div class="small-6 medium-3 column">
                         <?php echo do_shortcode("[tweet id='$tweet']"); ?>
                     </div>
                 <?php endforeach; ?>
-            </div>
+            <!-- </div> -->
         </div>
     </div>
 </div>
