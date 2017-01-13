@@ -3,20 +3,32 @@
 <div class="home">
     <div class="row align-center home-topic color-gold">
             <div class="small-12 columns">
-                <h1>Topic of The Month</h1>
+                <h1>January Open Perspective</h1>
                 <h2>What is Open Education</h2>
             </div>
             <div class="column medium-10 text-center home-topic-text">
-                <p> Open education is a modern approach to a changing world, allowing everyone access to education and knowledge, giving teachers tools to make education effective and engaging for all students, providing students with more options, and ensuring that education is relevant and up to date.</p>
+                <p>As we look forward to the Year of Open, OEC reached out to respected leaders around the world to get their thoughts on open education and where they see open education in the next ten years.  As experts in their respective fields, collectively their responses led to a truly global perspective of open education. To read the full posts, click the links below to jump to each expert’s viewpoint.</p>
+            </div>
+            <div class="column medium-10 home-topic-text">
+                <p>
+                    <a href="/what-is-open-education/#baroud">Dr. Fawzi Baroud</a>, Assistant Vice President for Information Technology, Notre Dame University, Lebanon<br />
 
-                <!-- <p>We’ve interviewed people from around the world about open education, read more about their perspectives here.</p> -->
+                    <a href="/what-is-open-education/#cox">Dr. Glenda Cox</a>, Senior Lecturer, University of Cape Town, South Africa<br />
+
+                    <a href="/what-is-open-education/#rao">Allen Rao</a>, Global Business Director, Netease Online Open Courses, China<br />
+
+                    <a href="/what-is-open-education/#smith">Dr. Peter Smith</a>, Orkand Chair, Professor of Innovative Practices in Higher Education, University of Maryland University College, United States<br />
+
+                    <a href="/what-is-open-education/#touze">Sophie Touze</a>, Ministry of National Education, Higher Education and Research, VetAgroSup - Campus Lyon, EUREKA Moment<br />
+                </p>
+
             </div>
 
-            <!--
+
             <div class="small-12 text-center">
-                <a href="#" class="button green">More Info</a>
+                <a href="/what-is-open-education/" class="button green">Read All Interviews</a>
             </div>
-            -->
+
     </div>
 
     <div class="expanded row">
