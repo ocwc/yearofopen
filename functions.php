@@ -63,7 +63,7 @@ require_once( get_template_directory() . '/inc/menu_walker.php' );
 // require_once( get_template_directory() . '/inc/helpers.php' );
 require_once( get_template_directory() . '/inc/filters.php' );
 require_once( get_template_directory() . '/inc/actions.php' );
-// require_once( get_template_directory() . '/inc/custom-types.php' );
+require_once( get_template_directory() . '/inc/custom-types.php' );
 // require_once( get_template_directory() . '/inc/opengraph.php' );
 require_once( get_template_directory() . '/inc/extras.php' );
 
