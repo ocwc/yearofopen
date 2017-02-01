@@ -3,30 +3,15 @@
 <div class="home">
     <div class="row align-center home-topic color-gold">
             <div class="small-12 columns">
-                <h1>January Open Perspective</h1>
-                <h2>What is Open Education</h2>
+                <h1>February Open Perspective</h1>
+                <h2>What is Open Source Software?</h2>
             </div>
             <div class="column medium-10 text-center home-topic-text">
-                <p>As we look forward to the Year of Open, OEC reached out to respected leaders around the world to get their thoughts on open education and where they see open education in the next ten years.  As experts in their respective fields, collectively their responses led to a truly global perspective of open education. To read the full posts, click the links below to jump to each expert’s viewpoint.</p>
+                <p>Open source software is software whose source code is available for anyone to inspect, customize, and enhance.  It is created by a worldwide community of developers and organizations, resulting in high quality, peer reviewed software that is responsive to user needs.</p>
             </div>
-            <div class="column medium-10 home-topic-text">
-                <p>
-                    <a href="/what-is-open-education/#baroud">Dr. Fawzi Baroud</a>, Assistant Vice President for Information Technology, Notre Dame University, Lebanon<br />
-
-                    <a href="/what-is-open-education/#cox">Dr. Glenda Cox</a>, Senior Lecturer, University of Cape Town, South Africa<br />
-
-                    <a href="/what-is-open-education/#rao">Allen Rao</a>, Global Business Director, Netease Online Open Courses, China<br />
-
-                    <a href="/what-is-open-education/#smith">Dr. Peter Smith</a>, Orkand Chair, Professor of Innovative Practices in Higher Education, University of Maryland University College, United States<br />
-
-                    <a href="/what-is-open-education/#touze">Sophie Touze</a>, Ministry of National Education, Higher Education and Research, VetAgroSup - Campus Lyon, EUREKA Moment<br />
-                </p>
-
-            </div>
-
 
             <div class="small-12 text-center">
-                <a href="/what-is-open-education/" class="button green">Read All Interviews</a>
+                <a href="/february-open-perspective/" class="button green">Learn More</a>
             </div>
 
     </div>
