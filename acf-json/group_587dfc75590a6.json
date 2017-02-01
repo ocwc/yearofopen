@@ -1,0 +1,40 @@
+{
+    "key": "group_587dfc75590a6",
+    "title": "Partner information",
+    "fields": [
+        {
+            "default_value": "",
+            "placeholder": "",
+            "key": "field_587dfc7a46518",
+            "label": "URL",
+            "name": "partner_url",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "partner"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1484651659
+}

@@ -186,6 +186,10 @@ $arial: Arial,Helvetica Neue,Helvetica,sans-serif;
 /* Home */
 .home-topic {
     margin-bottom: rem-calc(75);
+
+    @include breakpoint(small only) {
+        margin-top: rem-calc(60);
+    }
 }
 
 .home h1 {
@@ -238,6 +242,11 @@ $arial: Arial,Helvetica Neue,Helvetica,sans-serif;
     display: table;
     border-radius: rem-calc(5);
     min-height: rem-calc(248);
+
+    @include breakpoint(small only) {
+        margin-bottom: rem-calc(30);
+        width: 100%;
+    }
 }
 
 .home-card a {
@@ -328,4 +337,48 @@ h1 {
     font-size: rem-calc(20);
     color: inherit;
     weight: normal;
+}
+
+.partner__single {
+    margin-bottom: rem-calc(20);
+}
+
+.partner__single img {
+    padding: rem-calc(15);
+}
+
+.home-social-partners {
+    margin-top: rem-calc(30);
+}
+
+.home-social-partners h2 {
+    margin-bottom: rem-calc(30);
+}
+
+.orbit-slide {
+    margin: 0 auto;
+
+
+    padding: rem-calc(30) 10%;
+
+    @include breakpoint(medium) {
+        height: rem-calc(190);
+    }
+}
+
+.orbit-slide > .row {
+    // display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.orbit-container {
+    text-align: center;
+
+    background-color: $white;
+    border-radius: rem-calc(5);
+}
+
+.orbit-previous, .orbit-next {
+    color: $black;
 }

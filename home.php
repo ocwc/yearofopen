@@ -6,6 +6,7 @@
                 <h1>February Open Perspective</h1>
                 <h2>What is Open Source Software?</h2>
             </div>
+
             <div class="column medium-10 text-center home-topic-text">
                 <p>Open source software is software whose source code is available for anyone to inspect, customize, and enhance.  It is created by a worldwide community of developers and organizations, resulting in high quality, peer reviewed software that is responsive to user needs.</p>
             </div>
@@ -61,19 +62,19 @@
 
     <div class="background-gradient-blueDark home-cards">
         <div class="row align-spaced">
-            <div class="column small-6 medium-2 home-card home-card-education">
+            <div class="column small-12 medium-2 home-card home-card-education">
                 <a href="/open-education/">Open Education</a>
             </div>
-            <div class="column small-6 medium-2 home-card home-card-oer">
+            <div class="column small-12 medium-2 home-card home-card-oer">
                 <a href="/what-are-open-educational-resources/">Open Educational Resources</a>
             </div>
-            <div class="column small-6 medium-2 home-card home-card-access">
+            <div class="column small-12 medium-2 home-card home-card-access">
                 <a href="/what-is-open-access/">Open Access</a>
             </div>
-            <div class="column small-6 medium-2 home-card home-card-software">
+            <div class="column small-12 medium-2 home-card home-card-software">
                 <a href="/what-is-open-source-software/">Open Source Software</a>
             </div>
-            <div class="column small-6 medium-2 home-card home-card-licensing">
+            <div class="column small-12 medium-2 home-card home-card-licensing">
                 <a href="/what-are-open-licenses/">Open Licenses</a>
             </div>
         </div>
@@ -87,11 +88,16 @@
             </div>
             <!-- <div class="small-12 medium-10 column"> -->
                 <?php foreach (get_tweets() as $tweet) : ?>
-                    <div class="small-6 medium-3 column">
+                    <div class="small-12 medium-3 column">
                         <?php echo do_shortcode("[tweet id='$tweet']"); ?>
                     </div>
                 <?php endforeach; ?>
             <!-- </div> -->
+
+            <div class="small-12 medium-12 column text-center home-social-partners">
+                <h2>Partners</h2>
+                <?php get_template_part('partials/home-slider'); ?>
+            </div>
         </div>
     </div>
 </div>
