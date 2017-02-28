@@ -2,19 +2,7 @@
 
 <div class="home">
     <div class="row align-center home-topic color-gold">
-            <div class="small-12 columns">
-                <h1>February Open Perspective</h1>
-                <h2>What is Open Source Software?</h2>
-            </div>
-
-            <div class="column medium-10 text-center home-topic-text">
-                <p>Open source software is software whose source code is available for anyone to inspect, customize, and enhance.  It is created by a worldwide community of developers and organizations, resulting in high quality, peer reviewed software that is responsive to user needs.</p>
-            </div>
-
-            <div class="small-12 text-center">
-                <a href="/february-open-perspective/" class="button green">Learn More</a>
-            </div>
-
+        <?php the_field('home_topic', 'options'); ?>
     </div>
 
     <div class="expanded row">
