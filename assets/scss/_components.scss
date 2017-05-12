@@ -111,8 +111,9 @@ $arial: Arial,Helvetica Neue,Helvetica,sans-serif;
     min-width: rem-calc(250);
 }
 
-.is-dropdown-submenu-item a {
+.menu .is-dropdown-submenu-item a {
     color: $white;
+    line-height: 1.25;
 }
 
 .is-dropdown-submenu-item:hover a,
