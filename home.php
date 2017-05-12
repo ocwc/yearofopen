@@ -50,21 +50,14 @@
 
     <div class="background-gradient-blueDark home-cards">
         <div class="row align-spaced">
-            <div class="column small-12 medium-2 home-card home-card-education">
-                <a href="/open-education/">Open Education</a>
-            </div>
-            <div class="column small-12 medium-2 home-card home-card-oer">
-                <a href="/what-are-open-educational-resources/">Open Educational Resources</a>
-            </div>
-            <div class="column small-12 medium-2 home-card home-card-access">
-                <a href="/what-is-open-access/">Open Access</a>
-            </div>
-            <div class="column small-12 medium-2 home-card home-card-software">
-                <a href="/what-is-open-source-software/">Open Source Software</a>
-            </div>
-            <div class="column small-12 medium-2 home-card home-card-licensing">
-                <a href="/what-are-open-licenses/">Open Licenses</a>
-            </div>
+            <?php while ( have_rows('home_stories', 'options') ) : the_row(); ?>
+                <div class="column small-12 medium-3 large-2">
+                    <div class="home-card" style="background-image: <?php echo "url('" . get_sub_field('image')['sizes']['card'] . "');"; ?>">
+                        <a href="/open-education/"><?php the_sub_field('title'); ?></a>
+                    </div>
+                </div>
+
+            <?php endwhile ;?>
         </div>
     </div>
 

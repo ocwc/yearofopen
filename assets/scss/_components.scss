@@ -235,13 +235,18 @@ $arial: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .home-cards {
-    padding: rem-calc(95) 0;
+    padding: rem-calc(95) 0 rem-calc(65);
 }
 
 .home-card {
     display: table;
+    width: 100%;
+    margin-bottom: rem-calc(30);
+
     border-radius: rem-calc(5);
     min-height: rem-calc(248);
+
+    background-size: cover;
 
     @include breakpoint(small only) {
         margin-bottom: rem-calc(30);
@@ -251,6 +256,8 @@ $arial: Arial,Helvetica Neue,Helvetica,sans-serif;
 
 .home-card a {
     display: table-cell;
+    padding: 0 rem-calc(10);
+
     vertical-align: middle;
     text-align: center;
 
@@ -263,33 +270,6 @@ $arial: Arial,Helvetica Neue,Helvetica,sans-serif;
         color: lighten($primary-color, 40%);
     }
     text-shadow: 0px 1px $black;
-}
-
-.home-card-education {
-    background-image: url('../images/yoo-4.jpg');
-    background-size: cover;
-}
-
-.home-card-oer {
-    background-image: url('../images/yoo-5.jpg');
-    background-size: cover;
-    background-position: right top;
-}
-
-.home-card-access {
-    background-image: url('../images/yoo-2.jpg');
-    background-size: cover;
-}
-
-.home-card-software {
-    background-image: url('../images/yoo-1.jpg');
-    background-size: cover;
-}
-
-.home-card-licensing {
-    background-image: url('../images/yoo-3.jpg');
-    background-size: cover;
-    background-position: center bottom;
 }
 
 .home-social {
