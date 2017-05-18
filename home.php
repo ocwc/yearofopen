@@ -53,7 +53,7 @@
             <?php while ( have_rows('home_stories', 'options') ) : the_row(); ?>
                 <div class="column small-12 medium-3 large-2">
                     <div class="home-card" style="background-image: <?php echo "url('" . get_sub_field('image')['sizes']['card'] . "');"; ?>">
-                        <a href="/open-education/"><?php the_sub_field('title'); ?></a>
+                        <a href="<?php the_permalink(get_sub_field('link')->ID); ?>"><?php the_sub_field('title'); ?></a>
                     </div>
                 </div>
 
