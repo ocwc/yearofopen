@@ -40,7 +40,7 @@ gulp.task('sass-devel', function() {
 gulp.task('compress', function() {
   var files = [
     'bower_components/what-input/what-input.js',
-    'bower_components/foundation-sites/dist/foundation.js',
+    'bower_components/foundation-sites/dist/js/foundation.js',
     'js/app.js'
   ];
 
