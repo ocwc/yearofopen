@@ -86,9 +86,9 @@
                 <p>Use #yearofopen and join the discussion</p>
             </div>
             <div class="small-12 medium-4 column text-right">
-                <a class="home-social-icon" href="#"><img
+                <a class="home-social-icon" href="https://www.facebook.com/yearofopen/"><img
                         src="<?php echo get_template_directory_uri(); ?>/images/facebook-follow.svg"/></a>
-                <a class="home-social-icon" href="#"><img
+                <a class="home-social-icon" href="https://twitter.com/oeconsortium"><img
                         src="<?php echo get_template_directory_uri(); ?>/images/twitter-follow.svg"/></a>
             </div>
 
