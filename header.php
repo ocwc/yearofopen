@@ -57,13 +57,13 @@
         <!-- "wider" top-bar menu for 'medium' and up -->
         <div class="header-container">
             <div class="row header show-for-medium">
-                <div class="medium-2 columns logo-container">
+                <div class="medium-3 large-2 columns logo-container">
                     <a href="/" class="logo-anchor"><img class="logo"
                                                          src="<?php echo get_template_directory_uri(); ?>/images/logo.svg"
                                                          alt="Year Of Open Logo"/></a>
                 </div>
 
-                <div class="medium-10 columns">
+                <div class="medium-9 large-10 columns">
                     <?php
                     wp_nav_menu( array(
                         'container'      => false,

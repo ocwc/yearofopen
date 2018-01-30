@@ -52,6 +52,19 @@ $arial: Arial,Helvetica Neue,Helvetica,sans-serif;
     background-color: $blue;
 }
 
+.background-color-1  { background-color: #E35095; }
+.background-color-2  { background-color: #E24A4A; }
+.background-color-3  { background-color: #F5A623; }
+.background-color-4  { background-color: #CABE26; }
+.background-color-5  { background-color: #93C136; }
+.background-color-6  { background-color: #20C94A; }
+.background-color-7  { background-color: #3FC4C0; }
+.background-color-8  { background-color: #38A3D4; }
+.background-color-9  { background-color: #356BD0; }
+.background-color-10 { background-color: #2839DD; }
+.background-color-11 { background-color: #5C33D9; }
+.background-color-12 { background-color: #A639D4; }
+
 /* Buttons */
 .button.green {
     @include button-style($green, darken($green, 20%), $white);
@@ -675,3 +688,35 @@ a img.aligncenter {
         margin-right: 0;
     }
 }
+
+.home-lastyear {
+    padding-top: 78px;
+}
+
+.home-lastyear-boxes {
+    padding-top: 78px;
+}
+
+.home-lastyear-boxes a {
+    padding: 20px 10px;
+    min-height: 135px;
+    color: $white;
+    position: relative;
+
+    &:hover,
+    &:focus {
+        //color: $light-gray;
+
+        &::after {
+            content: " ";
+            position: absolute;
+            pointer-events: none;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, .2);
+        }
+    }
+}
+
