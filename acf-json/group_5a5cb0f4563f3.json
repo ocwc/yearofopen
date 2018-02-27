@@ -22,6 +22,25 @@
             "maxlength": ""
         },
         {
+            "key": "field_5a9531e3c6e54",
+            "label": "Attribution",
+            "name": "perspective_attribution",
+            "type": "wysiwyg",
+            "instructions": "Enter HTML with Correct Attribution Format. Use 'CC' Text to refer to CC license.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
             "key": "field_5a5cb7cc2a486",
             "label": "Background image",
             "name": "perspective_image",
@@ -63,5 +82,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1516025820
+    "modified": 1519727168
 }

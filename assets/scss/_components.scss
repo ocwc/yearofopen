@@ -643,24 +643,18 @@ a img.aligncenter {
     margin-bottom: 20px;
 }
 
-.article-meta p {
-    text-align: left;
-
-}
-
 .article-meta .bio {
     color: #8a8a8a;
 }
 
 .person-image {
     border-radius: 200px;
-    width: 100px;
-    height: 100px;
-
+    width: 130px;
+    height: 130px;
 }
 
 .home-bottom {
-    margin-bottom: 0;
+    margin-bottom: 15px;
 }
 
 .share {
@@ -720,3 +714,6 @@ a img.aligncenter {
     }
 }
 
+.attribution a {
+    color: $white;
+}

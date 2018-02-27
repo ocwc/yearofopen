@@ -9,8 +9,15 @@
                     <h1><?= $term->name; ?></h1>
                     <?= $term->description; ?>
                 </div>
-                <div class="cell shrink align-self-left">
-                    <p class="home-bottom"><?= get_field( 'perspective_subtitle', $term ); ?></p>
+                <div class="grid-x grid-margin-x align-self-left align-justify">
+                    <div class="cell shrink">
+                        <p class="home-bottom"><?= get_field( 'perspective_subtitle', $term ); ?></p>
+                    </div>
+                    <?php if ( get_field( 'perspective_attribution', $term ) ) : ?>
+                        <div class="cell shrink attribution">
+                            <p class="home-bottom"><?= get_field( 'perspective_attribution', $term ); ?></p>
+                        </div>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
@@ -23,6 +30,6 @@
         <?php endwhile; ?>
     </div>
 
-    <?php get_template_part('partials/_share'); ?>
+<?php get_template_part( 'partials/_share' ); ?>
 
 <?php get_footer();
