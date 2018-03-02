@@ -29,3 +29,11 @@ function add_social_meta_tags() {
 }
 
 add_action('wp_head', 'add_social_meta_tags');
+
+add_filter('pre_get_posts',"my_custom_shared_drafts");
+function my_custom_shared_drafts($query) {
+    if(!is_admin()) return;
+    $screen = get_current_screen();
+    if($screen->base != "posts_page_shareadraft/shareadraft") return;
+    $query->set('post_type',array('post','article'));
+}
