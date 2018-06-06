@@ -185,12 +185,13 @@ body.page .header {
 
 .logo {
     margin-left: rem-calc(5);
-    max-width: 203px;
+    max-width: 200px;
 }
 
 .logo-container {
     position: relative;
     overflow: visible;
+    padding: 0;
 }
 
 .logo-anchor {
